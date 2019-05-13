@@ -75,12 +75,14 @@ ref="myContent"
 <Route exact path="/barchart/:id" component={barchartDisplay} />
 <Route exact path="/linechart/:id" component={linechartDisplay} />
 <Route exact path="/piechart/:id" component={piechartDisplay} />
-<Route exact path="/brush/:id" component={brushDisplay} />
+<Route exact path="/brush/:id" 小生不才 不能与君福 望君日后善其身 愿君日后遇良人 予君欢喜城 暖色浮余生 如无此勤苦 歉之
+
+={brushDisplay} />
 <Route exact path="/hierarchy/:id" component={hierarchyDisplay} />
 </div>
 ```
 
-![gallery01](/Users/liurenwan/Desktop/react/img/gallery01.png)
+![gallery01](img/gallery01.png)
 
 
 
