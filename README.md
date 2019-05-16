@@ -176,6 +176,18 @@ export function barchartDisplay({ match }) {
 
 
 
+
+
+### 加载第三方库
+
+这里利用ref加载第三方库
+
+```react
+  return <div ref={node => (this.d3Node = node)} />;  //ref中给了一个箭头函数，node代表真实DOM，把真实DOM赋给当前DOM，推荐使用这种方式
+```
+
+
+
 ## codesandbox
 
 [d3 + react](https://codesandbox.io/s/w280w2x0m8)
